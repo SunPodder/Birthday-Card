@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&family=Rubik:ital,wght@0,300;1,300&display=swap');
 
 
-
 body {
   
   /* Full screen width and height */
@@ -31,8 +30,8 @@ body {
 }
 
 .card {
-  width: 55vw;
-  height: 45vw;
+  width: 53vw;
+  height: 23vh;
   padding: 6vw;
   border-radius: 4vw;
   box-sizing: border-box;
