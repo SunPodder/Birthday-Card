@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&family=Rubik:ital,wght@0,300;1,300&display=swap');
 
 
+
 body {
   
   /* Full screen width and height */
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
     
   /* Centers the container in the middle of the screen */
@@ -40,7 +41,7 @@ body {
   background: radial-gradient(circle at 0, #ccf8ff, #d0b2fb);
   box-shadow: 0 1vw 1.5vw rgba(0, 0, 0, 0.2);
   transform-style: preserve-3d;
-  transform: perspective(800px);
+  transform: perspective(10vw);
   transition: transform 0.1s ease-out;
 }
 
@@ -55,13 +56,15 @@ h1 {
   font-size: 5vw;
   font-weight: normal;
   font-family: 'Kumar One Outline', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",Arial,sans-serif;
+  font-size: 2.5vh;
 }
 p {
   margin: 1vw 0 0;
   transform: translateZ(4vw);
-  font-size: 2vw;
+  font-size: 1vh;
   font-style: italic;
   font-family: 'Rubik', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",Arial,sans-serif;
+  font-size: 2vw;
 }
 .inner-text {
   background: -webkit-linear-gradient(0deg, rgb(0,179,228), rgb(165,104,246) 50%);
