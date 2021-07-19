@@ -41,7 +41,7 @@ body {
   background: radial-gradient(circle at 0, #ccf8ff, #d0b2fb);
   box-shadow: 0 1vw 1.5vw rgba(0, 0, 0, 0.2);
   transform-style: preserve-3d;
-  transform: perspective(10vw);
+  transform: perspective(800px);
   transition: transform 0.1s ease-out;
 }
 
